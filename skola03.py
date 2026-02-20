@@ -1,19 +1,13 @@
-n=int(input()) # Students Driļevskis
-a=input()
-b=a.split()
+# n, h = map(int, input().split()) # Malkas Iepirkšana
+# min_nauda = None
 
-apaksa=int(b[0])
-augsa=int(b[1])
+# for i in range(n):
+#     p, c = map(int, input().split())
+    
+#     saini = (h + p - 1) // p
+#     nauda = saini * c
+    
+#     if min_nauda is None or nauda < min_nauda:
+#         min_nauda = nauda
 
-for k in range(n-1):
-    a=input()
-    b=a.split()
-    s=int(b[0])
-    b=int(b[1])
-
-    if s<apaksa:
-        apaksa=s
-    elif b>augsa: # else if?
-        augsa=b
-    #nepabeigts
-print()
+# print(min_nauda)

@@ -1,13 +1,6 @@
-# n, h = map(int, input().split()) # Malkas Iepirkšana
-# min_nauda = None
+a=input() # Minimālais Četrciparu Skaitlis
 
-# for i in range(n):
-#     p, c = map(int, input().split())
-    
-#     saini = (h + p - 1) // p
-#     nauda = saini * c
-    
-#     if min_nauda is None or nauda < min_nauda:
-#         min_nauda = nauda
+b = sorted(a) # b sakārtot augiši a
 
-# print(min_nauda)
+for c in b: # par katru b izprintēt c
+    print(c, end="") # lai vienā rindā
