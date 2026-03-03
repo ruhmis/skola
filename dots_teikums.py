@@ -13,8 +13,3 @@ for i in range(0, len(a)-1):
     if a[i] == " ":
         print(a[i-1], end=" ")
 print(a[-2], end=" ")
-
-#
-#
-#
-    
