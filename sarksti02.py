@@ -7,6 +7,13 @@
 teksts=input()
 vardi=teksts.split()
 
+print("1.uzd", *vardi)
+
+if "aaa" in vardi:
+    print("2.uzd IR")
+else:
+    print("2.uzd NAV")
+
 pieturzimes = []
 for vards in vardi:
     if (vards[-1]>='A' and vards[-1]<='Z') or (vards[-1]>='a' and vards[-1]<='z'):

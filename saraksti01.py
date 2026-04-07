@@ -14,8 +14,8 @@ print("1.uzd", *vardi)
 
 print("2.uzd", type(vardi))
 
-vardi.insert(2, "Sveiks") # nestradaa
-print("3.uxd", *vardi)
+vardi.insert(2, "Sveiks")
+print("3.uzd", *vardi)
 
 vardi.sort(reverse=True)
 print("4.uzd", vardi)
@@ -26,3 +26,9 @@ if "abc" in vardi:
     print("6.uzd IR")
 else:
     print("6.uzd NAV")
+
+pedejais = teksts.split()[-1]
+if len(vardi) > 2 and vardi[2] == pedejais:
+    print("7.uzd JA")
+else:
+    print("7.uzd NE")
